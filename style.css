@@ -1,0 +1,43 @@
+#alooo {
+
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    position: relative;
+    animation-name: aloo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes aloo {
+    0% {
+        background-color: black;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: blue;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blueviolet;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: chartreuse;
+        left: 0;
+        top: 200px;
+    }
+
+    100% {
+        background-color: crimson;
+        left: 0px;
+        top: 0px;
+    }
+}
